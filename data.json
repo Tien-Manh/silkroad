@@ -1,0 +1,41 @@
+{
+    "card":
+    [
+        {
+            "amount": 10000,
+            "silk": 5001000000
+        },
+        {
+            "amount": 20000,
+            "silk": 200
+        },
+        {
+            "amount": 50000,
+            "silk": 550
+        },
+        {
+            "amount": 100000,
+            "silk": 1100
+        },
+        {
+            "amount": 200000,
+            "silk": 2200
+        },
+        {
+            "amount": 500000,
+            "silk": 5500
+        }
+    ],
+    "atm":
+    	{
+    		"number": 102005664762,
+    		"bank": "Vietinbank",
+    		"name": "Bùi Tiến Mạnh",
+    		"content": "Tên Tài Khoản Game Nhận Silk"
+    	},
+    "daytime":
+	    {
+	    	"date_start": "15-11-2021 00:00:00",
+	    	"date_end": "22-11-2021 00:00:00"
+	    }
+}

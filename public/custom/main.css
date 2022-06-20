@@ -1,0 +1,568 @@
+body {
+  font-family: 'UVN Bai Sau';
+	letter-spacing: 0.05rem;
+}
+
+.nav-i {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.logo-f {
+    min-width: 170px;
+    color: coral;
+}
+
+.lang-f {
+    position: relative;
+    right: 2rem;
+}
+
+.lang-f .drop-down .selected a {
+    background: #1b1b29 no-repeat scroll right center;
+    display: block;
+    border: 1px solid coral;
+    width: 100px;
+    padding: 2px 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.lang-f .drop-down .selected a span {
+    cursor: pointer;
+    display: block;
+    padding: 3px;
+}
+
+.lang-f .drop-down .option {
+    position: relative;
+}
+
+.lang-f .drop-down .options ul {
+    background: #1b1b29 none repeat scroll 0 0;
+    display: none;
+    list-style: none;
+    padding: 0px 0px;
+    position: absolute;
+    width: 100%;
+    border: 1px solid coral;
+}
+
+.lang-f .drop-down .selected span.value,
+.drop-down .options span.value {
+    display: none;
+}
+
+.lang-f .drop-down .options ul li {
+    width: 100%;
+}
+
+.lang-f .drop-down .options ul li a {
+    padding: 2px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.lang-f .drop-down .options ul li a:hover {
+    background: coral;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.lang-f .op_active {
+    background: coral;
+    color: #fff;
+}
+
+.options a {
+    font-weight: normal;
+}
+
+.container-fluid {
+    margin-top: 56px;
+    background-color: black !important;
+    height: auto;
+}
+
+.banner {
+    max-height: 600px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.top-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.top-img>img {
+    width: 120%;
+    height: 117%;
+    top: -10%;
+    right: -10%;
+    position: absolute;
+}
+
+.banner .fix-baner>img {
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fix-baner {
+    display: none;
+}
+input{
+	font-size: 15px !important;
+}
+#im-0 {
+    display: block;
+}
+
+.kshow {
+    opacity: 1 !important;
+    transition: all 1.5s ease-in-out;
+}
+
+#im-0 .text-imge {
+    transition: all 1.5s ease-in-out;
+    opacity: 1 !important;
+}
+
+.text-imge {
+    opacity: 0;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 1px 0 coral,
+        0 2px 0 coral,
+        0 3px 0 coral,
+        0 4px 0 #b9b9b9,
+        0 5px 0 coral,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2);
+}
+
+.banner .text-imge {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+body,
+nav {
+    margin: auto;
+    max-width: 95.36743rem;
+    min-width: 0.36743rem;
+}
+
+.content {
+    position: relative;
+    margin-top: -160px !important;
+    margin: auto;
+    height: auto;
+   	/*background-color: #1e1d27;*/
+    color: white;
+    /*color: white;*/
+}
+
+.index-f,
+.index-v {
+    border: 1px solid coral;
+}
+
+.index-v p {
+    margin-bottom: 0;
+}
+
+input,
+.btn,
+select {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.list-group .list-group-item span {
+    position: absolute;
+    right: 5%;
+}
+
+.fa-coins {
+    color: #ca44a7;
+}
+
+.prop ul li {
+    padding: 0;
+}
+
+.prop ul li a {
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+}
+.left_bar, .content-s{
+	background-color: #17161e;
+	border-radius: 9px;
+	height: fit-content;
+}
+.left_bar .status .top p {
+    font-size: 17px;
+    line-height: 0.8em;
+}
+.left_bar span {
+    float: right;
+}
+
+.left_bar i {
+    min-width: 22px;
+}
+
+.rank table {
+    margin: 0;
+}
+
+.rank .card,
+.rank .card-body,
+.rank .card-header {
+    border-color: coral;
+}
+table{
+	border: 3px solid coral;
+}
+.rank td {
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-body {
+    padding: unset;
+}
+
+.card {
+    background-color: unset;
+}
+
+.card-header ul {
+    border: unset;
+}
+
+.infomt ul li {
+    color: white;
+    background-color: #212529;
+}
+
+.btn {
+    color: coral;
+}
+
+form a:hover {
+    color: #ff4400;
+}
+.col-form-label{
+	font-size: 17px !important;
+}
+form p {
+	font-size: 16px;
+}
+.infomt ul li a:hover,
+.btn:hover {
+    color: #ff4400;
+}
+input{
+	background-color: #2b2f40 !important;
+	outline: none;
+	box-shadow: none;
+	color: white !important;
+	height: 40px;
+}
+a{
+	text-decoration: none;
+}
+input:focus{
+	background-color: #282633 !important;
+	border: 1px solid coral !important;
+}
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #212529;
+    border: 1px solid coral;
+}
+
+#totop {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.alert {
+    color: coral;
+    background-color: #212529;
+    border-color: coral;
+}
+
+.atm {
+    border-color: coral !important;
+    width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    height: 100%;
+}
+
+.atm p {
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+}
+
+.download p {
+    font-size: 15px;
+}
+
+.download p a {
+    color: coral;
+    text-decoration: none;
+}
+
+.download p a i {
+    font-size: 40px;
+    position: relative;
+    top: 8px;
+}
+
+.download p a:hover {
+    color: #fa5417;
+    text-decoration: underline;
+}
+
+.menuClick {
+    font-size: 20px;
+    color: coral;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    z-index: 5555;
+    display: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.wf-35 {
+    width: 35%;
+}
+
+.wf-40 {
+    width: 40%;
+}
+
+.wf-45 {
+    width: 45%;
+}
+
+.wf-50 {
+    width: 50%;
+}
+
+.wf-55 {
+    width: 55%;
+}
+
+.wf-60 {
+    width: 60%;
+}
+
+.wf-65 {
+    width: 65%;
+}
+
+.wf-70 {
+    width: 70%;
+}
+
+.wf-75 {
+    width: 75%;
+}
+
+.wf-80 {
+    width: 80%;
+}
+
+.wf-85 {
+    width: 85%;
+}
+
+.wf-90 {
+    width: 90%;
+}
+
+.wf-95 {
+    width: 95%;
+}
+
+.wf-100 {
+    width: 100%;
+}
+
+.wf-md-30 {
+    width: 30%;
+}
+
+.wf-md-35 {
+    width: 35%;
+}
+
+.wf-md-40 {
+    width: 40%;
+}
+
+.wf-md-45 {
+    width: 45%;
+}
+
+.wf-md-50 {
+    width: 50%;
+}
+
+.wf-md-55 {
+    width: 55%;
+}
+
+.wf-md-60 {
+    width: 60%;
+}
+
+.wf-md-65 {
+    width: 65%;
+}
+
+.wf-md-70 {
+    width: 70%;
+}
+
+.wf-md-75 {
+    width: 75%;
+}
+
+.wf-md-80 {
+    width: 80%;
+}
+
+.wf-md-85 {
+    width: 85%;
+}
+
+.wf-md-90 {
+    width: 90%;
+}
+
+.wf-md-95 {
+    width: 95%;
+}
+
+.wf-md-100 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .wf-md-75 {
+        width: 75% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wf-95 {
+        width: 95% !important;
+    }
+
+    .banner .text-imge {
+        top: -30px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .content {
+        margin-top: -70px !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .content {
+        margin-top: -30px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .content {
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    nav>ul li {
+        display: block;
+        text-align: left;
+    }
+
+    nav>ul {
+        background: #212529;
+        position: absolute;
+        top: 130%;
+        height: 80vh;
+        left: -300px;
+        padding-left: 0;
+        padding: 15px;
+        border-radius: 15px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menutranform {
+        left: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menuClick {
+        display: block !important;
+    }
+
+    .toggle-t {
+        position: relative;
+    }
+
+    .toggle-t .dropdown {
+        left: 100%;
+        top: 0;
+        min-width: 160px;
+        width: max-content;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+
+}
+
+.rotate_ {
+    transform: rotate(-90deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.status-on {
+    color: #0bf753;
+}
+
+.status-of {
+    color: #f13838;
+}
+
+footer span {
+    font-size: 18px;
+}
